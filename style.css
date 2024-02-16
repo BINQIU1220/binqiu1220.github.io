@@ -1,0 +1,291 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 15px;
+}
+
+.header-link {
+  margin-right: 15px;
+}
+
+.profile-photo {
+  height: 18px;
+  width: 18px;
+  background-color: green;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 450;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.contact {
+  margin-bottom: 10px;
+}
+
+#name {
+  font-size: 2.1rem;
+  font-weight: 750;
+  margin: 0;
+}
+
+#profile-pic {
+  border-radius: 35%;
+}
+
+.intro {
+  display: flex;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+}
+
+#hello {
+  color: rgb(255, 81, 0);
+  font-size: 5.5rem;
+  font-weight: 650;
+  margin-bottom: 5px;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-bottom: 40px;
+}
+
+#intro-text-down {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+#intro-pic {
+  display: inline;
+}
+.blue-square {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(4, 119, 241);
+  margin-right: -45px;
+  margin-top: 15px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 85px;
+  margin-bottom: 60px;
+}
+
+.about-left {
+  display: flex;
+  margin-left: 80px;
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 130px;
+}
+
+.about-text-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 60px;
+  margin-bottom: 40px;
+  width: 65%;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+#welcome {
+  font-size: 2.4rem;
+  font-weight: 650;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+
+.about-right-up {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.about-right-down {
+  font-size: 1.5rem;
+}
+
+.about-right1,
+.about-right2 {
+  line-height: 1.35;
+}
+
+.container {
+  margin-top: 45px;
+  font-family: inherit !important;
+}
+
+.featurette-divider {
+  margin: 5rem;
+}
+
+.gallery-heading-1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.gallery-heading-2 {
+  color: rgba(33, 37, 41, 0.75);
+}
+
+.gallery-heading-3 {
+  font-size: 1.25rem;
+}
+
+.red-square {
+  height: 25px;
+  width: 25px;
+  background-color: rgba(240, 47, 47, 0.95);
+  margin-right: 10px;
+  margin-top: 14px;
+}
+
+.gallery-intro-text {
+  font-size: 2.4rem;
+  font-weight: 650;
+}
+
+.gallery-intro {
+  display: flex;
+  margin-left: 155px;
+  margin-top: 80px;
+  line-height: 50px;
+}
+
+#cat-pic {
+  border-radius: 8px;
+}
+
+.pro {
+  display: inline;
+}
+
+@media (max-width: 680px) {
+  hr {
+    margin: 0;
+  }
+
+  header {
+    justify-content: space-around;
+    margin: 0;
+
+    padding-top: 15px;
+  }
+  #name {
+    font-size: 2.5rem;
+  }
+  .intro {
+    flex-direction: column;
+    height: 555px;
+  }
+
+  #profile-pic {
+    height: 266px;
+  }
+  .intro-text {
+    justify-content: center;
+    margin: 0;
+    margin-top: 26px;
+  }
+  #hello {
+    font-size: 2.6rem;
+    font-weight: 650;
+  }
+  #intro-text-down {
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+  #intro-text-down img {
+    height: 50px;
+  }
+  #bin {
+    padding-bottom: 5px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-left {
+    margin-left: -40px;
+  }
+  .about-text-left {
+    width: 100%;
+    margin: 0;
+  }
+  .blue-square {
+    margin-right: 6px;
+  }
+  .about {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .about-right {
+    width: 100%;
+    margin-right: 0;
+    margin-left: -15px;
+  }
+  .gallery-intro {
+    margin-left: 18px;
+    margin-top: 0;
+    line-height: 50px;
+  }
+  .container {
+    margin-top: 25px;
+    width: 80% !important;
+  }
+
+  .red-square {
+    padding-right: 21px;
+  }
+  .gallery-intro-text {
+    width: 70%;
+  }
+  #cat-pic {
+    width: 350px !important;
+  }
+}
