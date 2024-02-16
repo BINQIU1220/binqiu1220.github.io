@@ -54,10 +54,6 @@ header {
   margin: 0;
 }
 
-#profile-pic {
-  border-radius: 35%;
-}
-
 .intro {
   display: flex;
   height: 700px;
@@ -75,7 +71,7 @@ header {
 .intro-text {
   display: flex;
   flex-direction: column;
-  margin-left: 60px;
+  margin-left: 45px;
   margin-bottom: 40px;
 }
 
