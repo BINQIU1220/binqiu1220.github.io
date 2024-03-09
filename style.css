@@ -200,6 +200,11 @@ header {
 }
 
 @media (max-width: 680px) {
+   html,
+  body {
+    overflow-x: hidden;
+  }
+  
   hr {
     margin: 0;
   }
